@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Community Support for Movers and Migrants</title>
+  <style>
+    /* Global Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+
+    /* Header */
+    header {
+      background-color: #0078d7;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav {
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #0078d7;
+      font-weight: bold;
+      margin: 0 15px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Hero Section */
+    .hero {
+      background-image: url('hero.jpg'); /* Replace with an actual image path */
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+
+    /* Sections */
+    section {
+      padding: 20px;
+      margin: 20px;
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    .services ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .services li {
+      margin: 10px;
+      padding: 20px;
+      width: 200px;
+      background-color: #e6f7ff;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .services li:hover {
+      background-color: #b3e5fc;
+    }
+
+    /* Testimonials */
+    .testimonials {
+      text-align: center;
+    }
+
+    .testimonials p {
+      font-style: italic;
+      margin: 10px;
+    }
+
+    /* Contact Form */
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .contact-form input, .contact-form textarea, .contact-form button {
+      width: 80%;
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .contact-form button {
+      background-color: #0078d7;
+      color: white;
+      cursor: pointer;
+      border: none;
+    }
+
+    .contact-form button:hover {
+      background-color: #005bb5;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #0078d7;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Community Services for Movers and Migrants</h1>
+    <p>Your trusted partner for housing, food, and community support.</p>
+  </header>
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="hero">
+    <h1>We Build Communities, Together</h1>
+  </div>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Our mission is to support migrants and movers by providing essential services like housing, food, and water. We strive to build a community where everyone feels welcomed and cared for.</p>
+  </section>
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Affordable Housing</li>
+      <li>Food and Water Assistance</li>
+      <li>Essential Household Items</li>
+      <li>Employment Guidance</li>
+      <li>Community Integration Programs</li>
+    </ul>
+  </section>
+  <section id="testimonials" class="testimonials">
+    <h2>What People Say</h2>
+    <p>"This service made my move so much easier!" - Alex</p>
+    <p>"The team is so supportive and caring. Highly recommend!" - Priya</p>
+    <p>"I found not just a house but also a community." - Ramesh</p>
+  </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2025 Community Services for Movers and Migrants. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
